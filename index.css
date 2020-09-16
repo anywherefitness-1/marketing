@@ -1,0 +1,27 @@
+/*
+Fixed:
+unit: px
+fixed does not move.
+
+FIxed:
+uses % ,rem, em for porportional. parent can adjust to screensize
+flows freely with the screensize
+
+adaptive:
+
+@media  . able to change css code to coordinate screen size of device
+
+responsive: % , rem, em
+@media 
+
+*/
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: lightblue;
+  }
+  nav { 
+    display: block;
+  }
