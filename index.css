@@ -77,9 +77,6 @@ body {
 
 }
 
-
-
-
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav-right {
