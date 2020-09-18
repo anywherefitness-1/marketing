@@ -1,49 +1,94 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<style type="text/css">
-.classname {
-	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
-	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
-	box-shadow: 3px 4px 0px 0px #8a2a21;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437) );
-	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24437 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437');
-	background-color:#c62d1f;
-	-webkit-border-top-left-radius:18px;
-	-moz-border-radius-topleft:18px;
-	border-top-left-radius:18px;
-	-webkit-border-top-right-radius:18px;
-	-moz-border-radius-topright:18px;
-	border-top-right-radius:18px;
-	-webkit-border-bottom-right-radius:18px;
-	-moz-border-radius-bottomright:18px;
-	border-bottom-right-radius:18px;
-	-webkit-border-bottom-left-radius:18px;
-	-moz-border-radius-bottomleft:18px;
-	border-bottom-left-radius:18px;
-text-indent:0;
-	border:1px solid #d02718;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:28px;
-	font-weight:bold;
-	font-style:normal;
-height:50px;
-	line-height:50px;
-width:140px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:0px 1px 0px #810e05;
-}.classname:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f) );
-	background:-moz-linear-gradient( center top, #f24437 5%, #c62d1f 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f');
-	background-color:#f24437;
-}.classname:active {
-	position:relative;
-	top:1px;
-}</style>
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+<!-- bottom navigation -->
+
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bottomnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bottomnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomnav-right {
+  float: right;
+}  
+
+
+
+
+
+  body {
+    background: rgb(36, 105, 102);
+    margin: 5;
+    padding: 5;
+  }
+
+  img {
+    max-width: width 300px;
+    height: 300px;
+}
