@@ -89,18 +89,18 @@ h2,
 h3 {
   text-align: center;
 }
-/* Here flex box is apply. Flex-wrap I have use additionally to make it look good in small screens */
+/*  flex box */
 .container-1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-/* setting border layout to all boxes */
+/*  border layout to all boxes */
 .container-1 div {
   border: 1px #60495a solid;
   padding: 10px;
 }
-/*  change flex numbers according to priorities  */
+/*  change flex numbers  */
 .box-1 {
   flex: 1;
   flex-basis: 30%; /* flex-basis is just same as width */
