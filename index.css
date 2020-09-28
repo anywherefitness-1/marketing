@@ -121,3 +121,13 @@ h3 {
   padding-left: 30%;
   padding-right: 30%;
 }
+
+@media only screen and (max-width: 500px) {
+  body {background: #d6d5c9;}
+}
+@media only screen and (min-width: 800px) {
+  body {background: #133939;}
+}
+@media only screen and (min-width: 1024px) {
+  body {background: #60495a;}
+}
